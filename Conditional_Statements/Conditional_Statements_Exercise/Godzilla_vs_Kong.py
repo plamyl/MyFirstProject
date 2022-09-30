@@ -1,0 +1,1 @@
+budget = float(input())
