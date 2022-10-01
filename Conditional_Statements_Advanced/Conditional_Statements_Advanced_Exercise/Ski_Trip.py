@@ -33,4 +33,3 @@ if rating == 'positive':
 elif rating == 'negative':
     total = total - (total * 0.10)
 print(f'{total:.2f}')
-
