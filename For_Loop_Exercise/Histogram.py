@@ -29,3 +29,4 @@ percent_p4 = p_4 / n * 100
 print(f"{percent_p4:.2f}%")
 percent_p5 = p_5 / n * 100
 print(f"{percent_p5:.2f}%")
+
