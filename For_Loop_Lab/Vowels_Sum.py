@@ -14,3 +14,4 @@ for ch in text:
         total += 5
 
 print(total)
+
