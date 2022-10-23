@@ -1,18 +1,15 @@
-available_sum = 0
+total = 0
 
-while True:
-    current_sum = input()
-
-    if current_sum == 'NoMoreMoney':
+money = input()
+while money != "NoMoreMoney":
+    money = float(money)
+    if money < 0:
+        print("Invalid operation!")
         break
+    print(f"Increase: {money:.2f}")
+    total += float(money)
+    money = input()
 
-        current_sum = float(input())
+print(f"Total: {total:.2f}")
 
-        if current_sum >= 0:
-            available_sum += current_sum
-            print(f'Increase: {current_sum:.2f}')
-        else:
-            print('Invalid operation!')
-            break
 
-print(f'Total:{available_sum:.2f}')
