@@ -20,3 +20,4 @@ if all_total >= machine_price:
     print(f"Yes! {diff:.2f}")
 else:
     print(f"No! {diff:.2f}")
+
